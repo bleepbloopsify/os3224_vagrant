@@ -46,7 +46,7 @@ int main(int argc, char* argv[]) {
   }
 
   count_the(fd);
-
+  close(fd);
   // TODO: find all occurences of sequence in file
 
   exit();
